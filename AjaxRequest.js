@@ -22,6 +22,7 @@ define(function(require, exports, module) {
     };
 
     AjaxRequest.prototype.post = function post(options) {
+        this.options.post = 'POST';
         _makeRequest.call(this, options);
         return this.response.promise;
     };
