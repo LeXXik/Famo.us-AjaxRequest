@@ -26,7 +26,7 @@ req.get({ url: '/user/me' }).then(function(response) {
 -   Create a new instance by passing options ``AjaxRequest(options)``. Any passed options will override the defaults.
 
 ## Default Options
-```JSON
+```javascript
 {
     method: 'GET',
     url:    undefined,
