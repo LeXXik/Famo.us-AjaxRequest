@@ -23,7 +23,7 @@ req.get({ url: '/user/me' }).then(function(response) {
 
 ### How to load
 -   Pull in with ``require(AjaxRequest);``
--   Create a new instance by passing options ``AjaxRequest`` methods. Any passed options will override the defaults.
+-   Create a new instance by passing options to ``AjaxRequest`` methods. Any passed options will override the defaults.
 
 ## Supported methods
 ```javascript
