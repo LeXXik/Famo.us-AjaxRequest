@@ -11,7 +11,7 @@ define(function(require, exports, module) {
     AjaxRequest.DEFAULT_OPTIONS = {
         method: 'GET',
         url: undefined,
-        type: 'application/json',
+        type: undefined,
         params: undefined,
         timeout: 5000
     };
@@ -30,6 +30,7 @@ define(function(require, exports, module) {
     // make your own helper methods!
     // AjaxRequest.prototype.loginRequest = function loginRequest(options) {
     //     this.options.method = 'POST';
+    //     this.options.type = 'application/json';
     //     this.options.url = '/auth/login';
     //     _makeRequest.call(this, options);
     //     return this.response.promise;
