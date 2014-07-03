@@ -36,7 +36,7 @@ req.get({ url: '/user/me' }).then(function(response) {
 {
     method: 'GET',
     url:    undefined,
-    type:   'application/json',
+    type:   undefined,
     params: undefined,
     timeout: 5000       // ms, before request times out
 }
