@@ -6,6 +6,7 @@ Famo.us-AjaxRequest
 ```javascript
 req.get({ url: '/user/me' }).then(function(response) {
     // handle response
+    console.log(response);
 });
 ```
 
