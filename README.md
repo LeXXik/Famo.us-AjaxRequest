@@ -64,6 +64,7 @@ var user = {
 };
 req.post({ 
     url: '/auth/login',
+    type: 'application/json',
     params: user,
     timeout: 10000
 }).then(function(response) {
